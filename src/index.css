@@ -1,14 +1,64 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+
+  font-family: "RobotoCondensed";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EconomicaBold", sans-serif;
+}
+
+.profile {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.project {
+  display: inline-block;
+  width: 300px;
+  margin: 15px 10px;
+  background-color: #e3eaf2;
+  padding: 1.5%;
+  border-radius: 3%;
+}
+
+.project__img {
+  width: 200px;
+  height: 120px;
+}
+
+.socials-box {
+  margin: 60px auto 30px auto;
+}
+
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.investButton {
+  margin: 5px 10px;
+}
+
+.toggleSkillButton {
+  margin: 30px 10px;
 }
