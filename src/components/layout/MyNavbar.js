@@ -11,6 +11,7 @@ class MyNavbar extends Component {
   };
 
   toggleContact = () => {
+    console.log(this.props.location.pathname);
     this.setState({ showContact: !this.state.showContact });
   };
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import profile from "../../assets/profile.png";
+import Title from "./Title";
 
 class About extends Component {
   state = {
@@ -15,7 +16,7 @@ class About extends Component {
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
         <p>My name is Wei Cheng. </p>
-        <p>I'm a software developer and a stock investor.</p>
+        <Title />
         <p>I'm a self-motivated learner and code every day.</p>
         {this.state.dispalyBio ? (
           <div>
