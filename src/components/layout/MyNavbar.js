@@ -38,18 +38,22 @@ class MyNavbar extends Component {
               <Link className="nav-link" to="/project">
                 PROJECT
               </Link>
-              <Button
-                variant="outline-primary investButton"
-                onClick={this.toggleInvestment}
-              >
-                Investment
-              </Button>
-              <Button
-                variant="primary investButton"
-                onClick={this.toggleContact}
-              >
-                Contact
-              </Button>
+              <div>
+                <Button
+                  variant="outline-primary investButton"
+                  onClick={this.toggleInvestment}
+                >
+                  Investment
+                </Button>
+              </div>
+              <div>
+                <Button
+                  variant="primary investButton"
+                  onClick={this.toggleContact}
+                >
+                  Contact
+                </Button>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
