@@ -17,8 +17,9 @@ const PROJECTS = [
     title: "My Investment Blog",
     description:
       "A full-stack app built by Python, JavaScript, SQLite, HTML5, CSS3 and hosted on AWS",
-    link: "https://weichenghung.com/",
-    image: project1
+    link: "https://github.com/s777610/stock-etf-investment-full-stack",
+    image: project1,
+    demo: "https://weichenghung.com/"
   },
   {
     id: 2,
@@ -26,18 +27,28 @@ const PROJECTS = [
     description:
       "A Restful API built by Python/Flask, including PostgreSQL and JWT concepts.",
     link: "https://github.com/s777610/flask-restful-with-postgresql",
-    image: project2
+    image: project2,
+    demo: "https://documenter.getpostman.com/view/4215311/RzfZQtLb"
   },
   {
     id: 3,
-    title: "Sing Color",
+    title: "Sing Color Frontend Demo",
+    description:
+      "A online store frontend demo porject built by React, SASS, HTML5",
+    link: "https://github.com/s777610/sing-color-frontend-demo",
+    image: project3,
+    demo: "https://s777610.github.io/sing-color-frontend-demo/"
+  },
+  {
+    id: 4,
+    title: "Sing Color Full-Stack",
     description:
       "A online store built by Python, JavaScript, SASS, HTML5, and Stripe as payment API.",
     link: "https://github.com/s777610/sing-color-full-stack",
     image: project3
   },
   {
-    id: 4,
+    id: 5,
     title: "Half Half Coin 1.0",
     description:
       "A blockchain app was built by Python/Flask. Front-end was built by vue.js.",
@@ -45,7 +56,7 @@ const PROJECTS = [
     image: project4
   },
   {
-    id: 5,
+    id: 6,
     title: "Restful API by Python 2.0",
     description:
       "A RESTful API built by Python including payment, database migration, OAuth 2.0",
@@ -53,7 +64,7 @@ const PROJECTS = [
     image: project5
   },
   {
-    id: 6,
+    id: 7,
     title: "Social Blog",
     description:
       "A Mobile friendly app built by Python, SASS, HTML. Including Auth, SQL database.",
@@ -61,39 +72,43 @@ const PROJECTS = [
     image: project6
   },
   {
-    id: 7,
+    id: 8,
     title: "Buger Store",
     description:
       "A serverless app built by React/Redux including auth and order. Store data on Firebase.",
     link: "https://github.com/s777610/BurgerBuilder-React",
-    image: project7
+    image: project7,
+    demo: "https://react-my-burger-bcc18.firebaseapp.com/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Surveryly",
     description:
       "A full stack app built by node, react and mongodb including Auth, payment, email sending.",
     link: "https://github.com/s777610/surveyly-full-stack",
-    image: project8
+    image: project8,
+    demo: "https://protected-depths-22405.herokuapp.com/"
   },
   {
-    id: 9,
+    id: 10,
     title: "Connectly",
     description:
       "This app was built by Node.js, React, Redux and MongoDB. Implement Github API.",
     link: "https://github.com/s777610/connectly-node-react",
-    image: project9
+    image: project9,
+    demo: "https://quiet-atoll-38277.herokuapp.com/"
   },
   {
-    id: 10,
+    id: 11,
     title: "Loan Manager",
     description:
       "Built by React, Redux and Firebase. Uses firebase service to create the serverless app.",
     link: "https://github.com/s777610/loan-manager",
-    image: project10
+    image: project10,
+    demo: "https://reactclientpanel-57599.firebaseapp.com/settings"
   },
   {
-    id: 11,
+    id: 12,
     title: "Scalable Blogly",
     description:
       "Built by Node, MongoDB, Redis and react including test suite, CI/CD, AWS and caching",
@@ -101,7 +116,7 @@ const PROJECTS = [
     image: project11
   },
   {
-    id: 12,
+    id: 13,
     title: "Half Half Coin 2.0",
     description:
       "Full-stack cryptocurrency app. Built by Node/Express, React, React-Bootstrap, and CSS3.",
