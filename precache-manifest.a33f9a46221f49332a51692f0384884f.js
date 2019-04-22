@@ -4,16 +4,20 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/project6.a6f34174.png"
   },
   {
-    "revision": "7a6ba8a4bc438b095b32",
-    "url": "/weicheng-portfolio/static/css/main.20ddc9e2.chunk.css"
+    "revision": "0e1546a87e315c8de883",
+    "url": "/weicheng-portfolio/static/css/main.6089b44d.chunk.css"
   },
   {
     "revision": "49cf575249f14589fb0a",
     "url": "/weicheng-portfolio/static/js/runtime~main.7e658d30.js"
   },
   {
-    "revision": "0a20d67226d7e0ea502b",
-    "url": "/weicheng-portfolio/static/js/2.d614decc.chunk.js"
+    "revision": "2f6a9c6335e0260bc73f",
+    "url": "/weicheng-portfolio/static/js/2.97f8e6b2.chunk.js"
+  },
+  {
+    "revision": "fe27426ff34b32bc67862a8d37f739bc",
+    "url": "/weicheng-portfolio/static/media/project3.fe27426f.png"
   },
   {
     "revision": "fd99f8e3744a0cf1335282d72cb77f5f",
@@ -32,10 +36,6 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/project2.d8eb98c0.png"
   },
   {
-    "revision": "fe27426ff34b32bc67862a8d37f739bc",
-    "url": "/weicheng-portfolio/static/media/project3.fe27426f.png"
-  },
-  {
     "revision": "eaa965d3f3881d3a6ba0c1b76b2d18fb",
     "url": "/weicheng-portfolio/static/media/project4.eaa965d3.png"
   },
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/project5.d214d5e9.png"
   },
   {
-    "revision": "7a6ba8a4bc438b095b32",
-    "url": "/weicheng-portfolio/static/js/main.b279fd66.chunk.js"
+    "revision": "0e1546a87e315c8de883",
+    "url": "/weicheng-portfolio/static/js/main.8fe6f146.chunk.js"
   },
   {
     "revision": "c7af9b46bfac25183e245d2e386830a8",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
   },
   {
-    "revision": "d907d2132038e30d0e254fed6219fbc4",
+    "revision": "0b6e4e76a4e842a156a79546da313e0d",
     "url": "/weicheng-portfolio/index.html"
   }
 ];
