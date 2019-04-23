@@ -65,7 +65,7 @@ const Resume = () => {
 
         <h3>
           <span>Chung Yuan Christian University, Taoyuan, Taiwan</span>
-          <span className="duration">May.2017 - May.2019</span>
+          <span className="duration">Jun.2010 - Sep.2014</span>
         </h3>
         <ul>
           <li>Bachelor of Mechanical Engineering</li>
