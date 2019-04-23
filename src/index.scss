@@ -72,39 +72,25 @@ h5 {
   border: #16826c solid 1px;
   border-radius: 2px;
   padding: 2px 6px;
-}
 
-.gitButton:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  text-decoration: none;
-  color: white;
-  background-color: #16826c;
+  &:hover {
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    background-color: #16826c;
+  }
 }
 
 .title-fade-out {
   opacity: 0;
-  -webkit-animation-name: fade-out;
-          animation-name: fade-out;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-name: fade-out;
+  animation-duration: 1.5s;
 }
 
 .title-fade-in {
   opacity: 100;
-  -webkit-animation-name: fade-in;
-          animation-name: fade-in;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade-out {
-  from {
-    opacity: 100;
-  }
-  to {
-    opacity: 0;
-  }
+  animation-name: fade-in;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade-out {
@@ -113,15 +99,6 @@ h5 {
   }
   to {
     opacity: 0;
-  }
-}
-
-@-webkit-keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 100;
   }
 }
 
@@ -134,38 +111,34 @@ h5 {
   }
 }
 
-.resume .section {
-  margin-top: 60px;
-}
+.resume {
+  .section {
+    margin-top: 60px;
 
-.resume .section__title {
-  color: #16826c;
-  border-bottom: #16826c solid 1px;
-}
+    &__title {
+      color: #16826c;
+      border-bottom: #16826c solid 1px;
+    }
 
-.resume .section__summary {
-  text-align: start;
-}
+    &__summary {
+      text-align: start;
+    }
 
-.resume .section__skill {
-  text-align: start;
-}
+    &__skill {
+      text-align: start;
+    }
 
-.resume .section__edu_exp_act {
-  text-align: start;
-}
+    &__edu_exp_act {
+      text-align: start;
+      h3 {
+        display: flex;
+        justify-content: space-between;
 
-.resume .section__edu_exp_act h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+        .duration {
+          color: #1c85cc;
+          font-size: 70%;
+        }
+      }
+    }
+  }
 }
-
-.resume .section__edu_exp_act h3 .duration {
-  color: #1c85cc;
-  font-size: 70%;
-}
-/*# sourceMappingURL=index.css.map */

@@ -38,6 +38,9 @@ class MyNavbar extends Component {
               <Link className="nav-link" to="/project">
                 PROJECT
               </Link>
+              <Link className="nav-link" to="/resume">
+                Résumé
+              </Link>
               <div>
                 <Button
                   variant="outline-primary investButton"

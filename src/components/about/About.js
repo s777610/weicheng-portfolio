@@ -10,6 +10,7 @@ class About extends Component {
   toggleDisplayBio = () => {
     this.setState({ dispalyBio: !this.state.dispalyBio });
   };
+
   render() {
     return (
       <div>
@@ -27,8 +28,8 @@ class About extends Component {
             </p>
             <p>Besides coding, I'm interested in stock market.</p>
             <p>
-              Occasionally, I write programs to scrape and visualize financial
-              data in order to make investment decisions.
+              I write programs to scrape and visualize financial data in order
+              to make investment decisions.
             </p>
             <p>Feel free to look around my site and contact me!</p>
             <button

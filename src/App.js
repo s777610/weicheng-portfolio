@@ -5,6 +5,7 @@ import Projects from "./components/projects/Projects";
 import SocialsBox from "./components/socials/SocialsBox";
 import About from "./components/about/About";
 import SkillBox from "./components/skill/SkillBox";
+import Resume from "./components/resume/Resume";
 import NotFound from "./components/PageNotFound";
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path="/" component={About} />
           <Route exact path="/project" component={Projects} />
           <Route exact path="/skill" component={SkillBox} />
+          <Route exact path="/resume" component={Resume} />
           <Route path="*" component={NotFound} />
         </Switch>
         <SocialsBox />
