@@ -75,7 +75,7 @@ const Resume = () => {
       <div className="section section__edu_exp_act">
         <h2 className="section__title">Experience</h2>
         <h3>
-          <span>Software Engineer Intern - Tap Series, Thousand Oaks</span>
+          <span>Software Engineer Intern - Tap Series, Westlake, CA</span>
           <span className="duration">Aug. 2018 — Nov. 2018</span>
         </h3>
         <ul>
