@@ -18,8 +18,7 @@ const PROJECTS = [
     description:
       "A full-stack app built by Python, JavaScript, SQLite, HTML5, CSS3 and hosted on AWS",
     link: "https://github.com/s777610/stock-etf-investment-full-stack",
-    image: project1,
-    demo: "https://weichenghung.com/"
+    image: project1
   },
   {
     id: 2,
