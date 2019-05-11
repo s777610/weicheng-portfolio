@@ -43,14 +43,6 @@ class MyNavbar extends Component {
               </Link>
               <div>
                 <Button
-                  variant="outline-primary investButton"
-                  onClick={this.toggleInvestment}
-                >
-                  Investment
-                </Button>
-              </div>
-              <div>
-                <Button
                   variant="primary investButton"
                   onClick={this.toggleContact}
                 >
