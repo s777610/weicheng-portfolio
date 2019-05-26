@@ -10,6 +10,7 @@ import project9 from "../assets/project9.png";
 import project10 from "../assets/project10.png";
 import project11 from "../assets/project11.png";
 import project12 from "../assets/project12.png";
+import project13 from "../assets/project13.png";
 
 const PROJECTS = [
   {
@@ -121,6 +122,15 @@ const PROJECTS = [
       "Full-stack cryptocurrency app. Built by Node/Express, React, React-Bootstrap, and CSS3.",
     link: "https://github.com/s777610/blockchain-node-react-fullstack",
     image: project12
+  },
+  {
+    id: 14,
+    title: "React Cryptocurrency",
+    description:
+      "A front-end cryptocurrency app built by React, highcharts, SASS and hosted on Github.io",
+    link: "https://github.com/s777610/react-visualization",
+    image: project13,
+    demo: "https://s777610.github.io/react-visualization/#/"
   }
 ];
 
