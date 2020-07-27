@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 const TITLES = [
-  "software developer 💻",
-  "stock investor 📈",
-  "full stack developer 💻"
+  'software engineer 💻',
+  'stock investor 📈',
+  'full stack developer 💻',
 ];
 
 class Title extends Component {
@@ -38,7 +38,7 @@ class Title extends Component {
     const title = TITLES[titleIndex];
 
     return (
-      <p className={fadeIn ? "title-fade-in" : "title-fade-out"}>
+      <p className={fadeIn ? 'title-fade-in' : 'title-fade-out'}>
         I am a {title}.
       </p>
     );

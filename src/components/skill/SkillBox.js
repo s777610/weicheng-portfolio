@@ -1,12 +1,12 @@
-import React, { PureComponent } from "react";
-import Languages from "./Languages";
-import Tools from "./Tools";
-import { Button } from "react-bootstrap";
+import React, { PureComponent } from 'react';
+import Languages from './Languages';
+import Tools from './Tools';
+import { Button } from 'react-bootstrap';
 
 class SkillBox extends PureComponent {
   state = {
     language: true,
-    tool: false
+    tool: false,
   };
 
   showLanguage = () => {
@@ -24,7 +24,7 @@ class SkillBox extends PureComponent {
         {this.state.tool ? <Tools /> : null}
 
         <Button
-          style={{ backgroundColor: "#056325", borderColor: "#056325" }}
+          style={{ backgroundColor: '#056325', borderColor: '#056325' }}
           className="toggleSkillButton"
           onClick={this.showLanguage}
           active={this.state.language}
@@ -32,12 +32,12 @@ class SkillBox extends PureComponent {
           Languages
         </Button>
         <Button
-          style={{ backgroundColor: "#0f5ba8", borderColor: "#0f5ba8" }}
+          style={{ backgroundColor: '#0f5ba8', borderColor: '#0f5ba8' }}
           className="toggleSkillButton"
           onClick={this.showTool}
           active={this.state.tool}
         >
-          Tools
+          Knowledge
         </Button>
         <hr />
       </React.Fragment>

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import profile from "../../assets/profile.png";
-import Title from "./Title";
+import React, { Component } from 'react';
+import profile from '../../assets/profile.png';
+import Title from './Title';
 
 class About extends Component {
   state = {
-    dispalyBio: false
+    dispalyBio: false,
   };
 
   toggleDisplayBio = () => {
@@ -16,12 +16,12 @@ class About extends Component {
       <div>
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
-        <p>My name is Wei Cheng. </p>
+        <p>My name is Wei-Cheng. </p>
         <Title />
         <p>I'm a self-motivated learner and code every day.</p>
         {this.state.dispalyBio ? (
           <div>
-            <p>I'm a Web Developer architecting full-stack applications.</p>
+            <p>I'm a Software Engineer architecting full-stack applications.</p>
             <p>
               I'm passionate about learning the latest technologies whether that
               is frontend or backend.

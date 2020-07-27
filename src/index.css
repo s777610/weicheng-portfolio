@@ -13,7 +13,7 @@ body {
   text-align: center;
   font-size: 20px;
   padding: 2.5%;
-  font-family: "RobotoCondensed";
+  font-family: 'RobotoCondensed';
 }
 
 h1,
@@ -21,7 +21,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "EconomicaBold", sans-serif;
+  font-family: 'EconomicaBold', sans-serif;
 }
 
 .profile {
@@ -134,13 +134,19 @@ h5 {
   }
 }
 
+.highlight {
+  text-decoration: underline;
+  font-weight: 900;
+  color: #1c85cc;
+}
+
 .resume .section {
   margin-top: 60px;
 }
 
 .resume .section__title {
   color: #16826c;
-  border-bottom: #16826c solid 1px;
+  border-bottom: #16826c solid 3px;
 }
 
 .resume .section__summary {

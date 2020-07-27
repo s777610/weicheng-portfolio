@@ -1,13 +1,13 @@
-import React from "react";
-import PROJECTS from "../../data/projects";
-import Project from "./Project";
+import React from 'react';
+import PROJECTS from '../../data/projects';
+import Project from './Project';
 
 const Projects = () => {
   return (
     <React.Fragment>
-      <h2>Main Projects</h2>
+      <h2>Personal Small Projects</h2>
       <div>
-        {PROJECTS.map(PROJECT => {
+        {PROJECTS.map((PROJECT) => {
           return <Project key={PROJECT.id} project={PROJECT} />;
         })}
       </div>
