@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a6f341747fc910d64cb1a4bb9c2fe63d",
-    "url": "/weicheng-portfolio/static/media/project6.a6f34174.png"
+    "revision": "8700f61929c2f6b2afc6",
+    "url": "/weicheng-portfolio/static/css/main.27f45c6e.chunk.css"
   },
   {
-    "revision": "0d482d0fdd579015f115",
-    "url": "/weicheng-portfolio/static/css/main.028716c3.chunk.css"
+    "revision": "8700f61929c2f6b2afc6",
+    "url": "/weicheng-portfolio/static/js/main.35eb5530.chunk.js"
   },
   {
     "revision": "49cf575249f14589fb0a",
     "url": "/weicheng-portfolio/static/js/runtime~main.7e658d30.js"
   },
   {
-    "revision": "c3d1ed282eab421756b3",
-    "url": "/weicheng-portfolio/static/js/2.220e8ce7.chunk.js"
+    "revision": "b30537a859e0a36d1c02",
+    "url": "/weicheng-portfolio/static/js/2.237e040c.chunk.js"
   },
   {
     "revision": "fe27426ff34b32bc67862a8d37f739bc",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/project5.d214d5e9.png"
   },
   {
-    "revision": "0d482d0fdd579015f115",
-    "url": "/weicheng-portfolio/static/js/main.0216756e.chunk.js"
+    "revision": "a6f341747fc910d64cb1a4bb9c2fe63d",
+    "url": "/weicheng-portfolio/static/media/project6.a6f34174.png"
   },
   {
     "revision": "c7af9b46bfac25183e245d2e386830a8",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
   },
   {
-    "revision": "47608bb51702f0623054ea8a366994b5",
+    "revision": "ce480bb1344954f15ac4a5f8e048d7a2",
     "url": "/weicheng-portfolio/index.html"
   }
 ];
