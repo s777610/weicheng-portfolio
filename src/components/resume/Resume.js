@@ -81,8 +81,8 @@ const Resume = () => {
             by {node} and {aws}
           </li>
           <li>
-            Implemented compass ticketing system which serves people around by{' '}
-            {node}, {react} and {aws}.{' '}
+            Implemented compass ticketing system which serves people around the
+            world by {node}, {react} and {aws}.{' '}
           </li>
           <li>
             Designed and implemented API integration in partnership with
