@@ -67,6 +67,32 @@ const Resume = () => {
         </ul>
       </div>
 
+      <div className="section section__skill">
+        <h2 className="section__title">Certification</h2>
+        <ul>
+          <li className="section__title__list">
+            <a
+              className="certificationButton"
+              href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-12-28&ci=AWS01182818"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AWS Certified Solutions Architect - Associate
+            </a>
+          </li>
+          <li className="section__title__list">
+            <a
+              className="certificationButton"
+              href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-08-14&ci=AWS01182818"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AWS Certified Developer - Associate
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <div className="section section__edu_exp_act">
         <h2 className="section__title">Work Experience</h2>
         <h3>

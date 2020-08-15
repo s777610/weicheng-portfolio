@@ -81,6 +81,21 @@ h5 {
   }
 }
 
+.certificationButton {
+  color: #1b6db1;
+  font-size: 110%;
+  border: #1b6db1 solid 1px;
+  border-radius: 2px;
+  padding: 2px 8px;
+
+  &:hover {
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    background-color: #1b6db1;
+  }
+}
+
 .title-fade-out {
   opacity: 0;
   animation-name: fade-out;
@@ -124,6 +139,10 @@ h5 {
     &__title {
       color: #16826c;
       border-bottom: #16826c solid 3px;
+
+      &__list {
+        margin-top: 10px;
+      }
     }
 
     &__summary {
