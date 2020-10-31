@@ -1,10 +1,10 @@
-import React from "react";
-import { Modal, ListGroup, Button } from "react-bootstrap";
-import Socials from "../socials/Socials";
+import React from 'react';
+import { Modal, ListGroup, Button } from 'react-bootstrap';
+import Socials from '../socials/Socials';
 
-const ContactModal = props => {
+const ContactModal = ({ showContact, toggleContact }) => {
   return (
-    <Modal show={props.showContact} onHide={props.toggleContact} centered>
+    <Modal show={showContact} onHide={toggleContact} centered>
       <Modal.Header closeButton>
         <Modal.Title>Contact Info</Modal.Title>
       </Modal.Header>
@@ -18,7 +18,7 @@ const ContactModal = props => {
         </ListGroup.Item>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={props.toggleContact}>
+        <Button variant="secondary" onClick={toggleContact}>
           Close
         </Button>
       </Modal.Footer>
