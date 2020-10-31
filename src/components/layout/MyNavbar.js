@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import { Nav, Navbar, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import ContactModal from "./ContactModal";
-import InvestModal from "./InvestModal";
+import React, { Component, Fragment } from 'react';
+import { Nav, Navbar, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import ContactModal from './ContactModal';
+import InvestModal from './InvestModal';
 
 class MyNavbar extends Component {
   state = {
     showContact: false,
-    showInvestment: false
+    showInvestment: false,
+    navExpanded: false,
   };
 
   toggleContact = () => {
@@ -18,10 +19,21 @@ class MyNavbar extends Component {
     this.setState({ showInvestment: !this.state.showInvestment });
   };
 
+  setNavExpanded = () => {
+    this.setState({ navExpanded: !this.state.navExpanded });
+  };
+
   render() {
+    const { navExpanded } = this.state;
     return (
-      <React.Fragment>
-        <Navbar className="sticky-top" bg="light" expand="lg">
+      <Fragment>
+        <Navbar
+          onToggle={this.setNavExpanded}
+          expanded={navExpanded}
+          className="sticky-top"
+          bg="light"
+          expand="lg"
+        >
           <Link to="/">
             <Navbar.Brand>WeiCheng's Portfolio</Navbar.Brand>
           </Link>
@@ -29,16 +41,28 @@ class MyNavbar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Link className="nav-link" to="/">
+              <Link onClick={this.setNavExpanded} className="nav-link" to="/">
                 HOME
               </Link>
-              <Link className="nav-link" to="/skill">
+              <Link
+                onClick={this.setNavExpanded}
+                className="nav-link"
+                to="/skill"
+              >
                 SKILL
               </Link>
-              <Link className="nav-link" to="/project">
+              <Link
+                onClick={this.setNavExpanded}
+                className="nav-link"
+                to="/project"
+              >
                 PROJECT
               </Link>
-              <Link className="nav-link" to="/resume">
+              <Link
+                onClick={this.setNavExpanded}
+                className="nav-link"
+                to="/resume"
+              >
                 Résumé
               </Link>
               <div>
@@ -60,7 +84,7 @@ class MyNavbar extends Component {
           showInvestment={this.state.showInvestment}
           toggleInvestment={this.toggleInvestment}
         />
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
