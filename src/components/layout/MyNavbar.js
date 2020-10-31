@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect, useRef } from 'react';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ContactModal from './ContactModal';
@@ -6,10 +6,28 @@ import ContactModal from './ContactModal';
 const MyNavbar = () => {
   const [showContact, setShowContact] = useState(false);
   const [navExpanded, setNavExpanded] = useState(false);
+  const ref = useRef();
+
+  useEffect(() => {
+    const onBodyClick = (event) => {
+      // if click event is from Navbar, don't do anything
+      if (ref.current && ref.current.contains(event.target)) {
+        return;
+      }
+      setNavExpanded(false);
+    };
+    document.body.addEventListener('click', onBodyClick);
+
+    // clear up
+    return () => {
+      document.body.removeEventListener('click', onBodyClick);
+    };
+  });
 
   return (
     <Fragment>
       <Navbar
+        ref={ref}
         onToggle={() => setNavExpanded(!navExpanded)}
         expanded={navExpanded}
         className="sticky-top"
