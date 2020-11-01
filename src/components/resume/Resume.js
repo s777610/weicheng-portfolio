@@ -73,7 +73,7 @@ const Resume = () => {
           <li className="section__title__list">
             <a
               className="certificationButton"
-              href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-12-28&ci=AWS01182818"
+              href="https://www.youracclaim.com/badges/ded70892-3a86-474b-af18-52eab6aa5fa6?source=linked_in_profile"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,7 +83,7 @@ const Resume = () => {
           <li className="section__title__list">
             <a
               className="certificationButton"
-              href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-08-14&ci=AWS01182818"
+              href="https://www.youracclaim.com/badges/ef7dd513-d53f-4070-b0cd-68a7b07118ef?source=linked_in_profile"
               target="_blank"
               rel="noopener noreferrer"
             >
