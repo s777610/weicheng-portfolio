@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2055bd011bfa1f5c7318",
+    "revision": "8298737e2ad776ff0475",
     "url": "/weicheng-portfolio/static/css/main.25bddb3b.chunk.css"
   },
   {
-    "revision": "2055bd011bfa1f5c7318",
-    "url": "/weicheng-portfolio/static/js/main.9bc9aa31.chunk.js"
+    "revision": "8298737e2ad776ff0475",
+    "url": "/weicheng-portfolio/static/js/main.03d4141b.chunk.js"
   },
   {
     "revision": "49cf575249f14589fb0a",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/weicheng-portfolio/static/media/roboto-condensed.light.cf4449c1.ttf"
   },
   {
-    "revision": "8bf8d007095c83f813d3037962cdfc56",
+    "revision": "284ac11b4b8d98f5eabf2d484327c13c",
     "url": "/weicheng-portfolio/index.html"
   }
 ];
